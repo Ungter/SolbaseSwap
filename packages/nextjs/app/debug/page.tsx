@@ -7,6 +7,8 @@ export const metadata = getMetadata({
   description: "Debug your deployed 🏗 Scaffold-ETH 2 contracts in an easy way",
 });
 
+export const dynamic = "force-dynamic";
+
 const Debug: NextPage = () => {
   return (
     <>

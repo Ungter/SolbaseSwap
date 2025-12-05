@@ -5,6 +5,8 @@ export const metadata = getMetadata({
   description: "Block Explorer created with 🏗 Scaffold-ETH 2",
 });
 
+export const dynamic = "force-dynamic";
+
 const BlockExplorerLayout = ({ children }: { children: React.ReactNode }) => {
   return <>{children}</>;
 };
